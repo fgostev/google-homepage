@@ -1,0 +1,145 @@
+body{
+        font-family: arial,sans-serif;
+        background-color:white;
+        color: #000000;
+        font-size: 14px;
+        margin: 0;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* logo */
+#logo {
+margin: 0 auto;
+text-align: center;
+}
+
+#logo img {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+}
+
+/* search */
+
+#search {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#search input {
+    background-color:  transparent;
+    border-radius: 24px;
+    width: 482px;
+    height: 40px;
+    border: 1px solid rgb(223,225,229);
+    background-image: url(searchicon.png);
+    background-repeat: no-repeat;
+     background-size: 15px 15px;
+     background-position: 3% 50%; 
+
+}
+
+/* buttons */
+
+#buttons {
+    padding-top: 14px;
+}
+
+#buttons button {
+    font-size:14px;
+         background-color: #f2f2f2;
+         color:#6f6f6f;
+         border-radius: 5px;
+         border: none;
+         padding: 0 16px;
+         height: 36px;
+         margin: 11px 4px;
+}
+
+#buttons button:hover {
+        border: 1px solid rgb(160, 160, 160, 0.4); 
+         background-color: #efefef;
+}
+
+/* navbars */
+
+
+div .right{
+    float: right;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+
+/* topnav */
+
+#topnav {
+    overflow: hidden;
+}
+
+#topnav ul{
+    padding: 5px;
+    list-style: none;
+}
+
+#topnav li {
+    float: left;
+    display: inline;
+}
+
+#topnav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+#topnav #signin {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+
+/* bottom nav */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
+    background-color:#f1f1f1e6;
+    width: 100%;
+}
+
+#bottomnav li {
+    float: left;
+    display: inline;
+        padding-bottom: 14px;
+}
+
+#bottomnav a{
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 24px;
+}
+
+/* #bottomnav li a:hover {
+    text-decoration: underline;
+} */
+
+ #bottomnav .right{
+     float: right;
+ }
+
